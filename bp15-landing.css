@@ -50,6 +50,8 @@ body{
 
 .hero-bullets{margin:10px 0 0 0;padding:0;list-style:none;color:var(--text);opacity:.9}
 .hero-bullets li{margin:6px 0}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:3px 8px;border-radius:999px;vertical-align:middle}
+.pill.premium{background:rgba(255,140,50,.18);color:#ffbd59;border:1px solid rgba(255,189,89,.45)}
 
 .hero-visual{display:grid;place-items:center}
 .device-mock{
@@ -71,10 +73,7 @@ body{
 .feature{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
 .f-emoji{font-size:22px;margin-bottom:6px}
 
-.screens{padding:24px 0}
-.screens-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.shot{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:12px;height:220px;box-shadow:var(--shadow)}
-.shot.ph{display:grid;place-items:center;color:var(--muted);font-size:14px}
+/* スクリーンショット節は削除 */
 
 .faq{padding:24px 0}
 details{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:12px;margin-bottom:10px}
@@ -114,4 +113,3 @@ details{background:var(--card);border:1px solid rgba(255,255,255,.06);border-rad
   .site-header{background:rgba(255,255,255,.8)}
   .site-footer{background:rgba(255,255,255,.8)}
 }
-
